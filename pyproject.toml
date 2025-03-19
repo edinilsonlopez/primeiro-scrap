@@ -1,0 +1,19 @@
+[project]
+name = "primeiro-scrap"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Edinilson Lopez",email = "edinilson@hotmail.com"}
+]
+readme = "README.md"
+requires-python = "=3.12.1"
+dependencies = [
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "lxml (>=5.3.1,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
